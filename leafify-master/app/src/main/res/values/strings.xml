@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">leafify</string>
+    <string-array name="result_labels">
+        <item>Diseased</item>
+        <item>Healthy</item>
+        <item>Invalid</item>
+    </string-array>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b2b2b"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="LEAFIFY"
+        android:textColor="#ffc21e"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+android:background="@drawable/imageviewborder"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select image"
+        android:textColor="#2b2b2b"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#ffc21e"
+        android:id="@+id/selectBtn"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="capture"
+        android:layout_below="@id/selectBtn"
+        android:layout_marginTop="20dp"
+        android:textColor="#2b2b2b"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#ffc21e"
+        android:id="@+id/captureBtn"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict"
+        android:layout_below="@id/captureBtn"
+        android:layout_marginTop="20dp"
+        android:textColor="#2b2b2b"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#ffc21e"
+        android:id="@+id/predictBtn"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/predictBtn"
+        android:text=""
+        android:textColor="#ffc21e"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+</RelativeLayout>
